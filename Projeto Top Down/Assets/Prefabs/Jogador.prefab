@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 89725263921178382}
   - component: {fileID: 1202745940532767748}
   - component: {fileID: 7376297690802372256}
+  - component: {fileID: 2219347382678877822}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Untagged
@@ -296,6 +297,29 @@ MonoBehaviour:
   velocidade: 5
   vida: 10
   energia: 100
+  arma: {fileID: 0}
+--- !u!95 &2219347382678877822
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510078343098749407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7418c7620d7298d46a24d5c5222b6e3e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6140978421677240127
 GameObject:
   m_ObjectHideFlags: 0

@@ -340,33 +340,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2027817725 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2510078343098749407, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
+--- !u!4 &1251859394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7473482680919284846, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
   m_PrefabInstance: {fileID: 3309358279101705180}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2027817732
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027817725}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7418c7620d7298d46a24d5c5222b6e3e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2429116449049633991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -493,6 +471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
+    - target: {fileID: 7376297690802372256, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
+      propertyPath: arma
+      value: 
+      objectReference: {fileID: 1251859394}
     - target: {fileID: 8861543065032951551, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.182
@@ -536,10 +518,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2510078343098749407, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2027817732}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
 --- !u!1001 &8860034473498057185
 PrefabInstance:
