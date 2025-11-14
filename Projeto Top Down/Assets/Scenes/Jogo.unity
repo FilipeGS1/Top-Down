@@ -340,11 +340,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1251859394 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7473482680919284846, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
-  m_PrefabInstance: {fileID: 3309358279101705180}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2429116449049633991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -356,6 +351,10 @@ PrefabInstance:
     - target: {fileID: 218524073168476417, guid: dac22ca81a864df4daa6e5e768d78908, type: 3}
       propertyPath: m_Name
       value: Bala
+      objectReference: {fileID: 0}
+    - target: {fileID: 218524073168476417, guid: dac22ca81a864df4daa6e5e768d78908, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1336372464432213607, guid: dac22ca81a864df4daa6e5e768d78908, type: 3}
       propertyPath: m_LocalPosition.x
@@ -471,10 +470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
-    - target: {fileID: 7376297690802372256, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
-      propertyPath: arma
-      value: 
-      objectReference: {fileID: 1251859394}
+    - target: {fileID: 8324324797924849876, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8861543065032951551, guid: 2d7dceb96592b2340ba41a5d130e12fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.182
