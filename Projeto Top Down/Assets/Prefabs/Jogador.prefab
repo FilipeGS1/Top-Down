@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 5463836693496656637}
   m_Layer: 0
   m_Name: Jogador
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,7 +337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7473482680919284846
 Transform:
   m_ObjectHideFlags: 0
@@ -425,6 +425,37 @@ MonoBehaviour:
   bala: {fileID: 218524073168476417, guid: dac22ca81a864df4daa6e5e768d78908, type: 3}
   intervaloDeDisparo: 0.2
   cursor: {fileID: 834094852144436402}
+--- !u!1 &7895647602699048808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6344304188181040409}
+  m_Layer: 0
+  m_Name: "Sa\xEDdaDoTiro"
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6344304188181040409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895647602699048808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5019, y: 0.0142, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1202678722052346038}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8144665158936122029
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,13 +466,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1202678722052346038}
   - component: {fileID: 4241360004973333951}
+  - component: {fileID: 4476599922846807263}
   m_Layer: 0
   m_Name: Bazuca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1202678722052346038
 Transform:
   m_ObjectHideFlags: 0
@@ -454,7 +486,8 @@ Transform:
   m_LocalPosition: {x: -0.006000042, y: -0.16799998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6344304188181040409}
   m_Father: {fileID: 8861543065032951551}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4241360004973333951
@@ -500,7 +533,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6909385119875833920, guid: 7af39a37120110143aec8f47ed6b5271, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -512,6 +545,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4476599922846807263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8144665158936122029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12af2eddb33d23a4aaf02d557aa358f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saidaDoTiro: {fileID: 6344304188181040409}
+  bala: {fileID: 42839755249559236, guid: 5a4dd06fca3175a429e663639528f637, type: 3}
+  intervaloDeDisparo: 0.2
+  cursor: {fileID: 834094852144436402}
 --- !u!1 &8895201364167819306
 GameObject:
   m_ObjectHideFlags: 0
