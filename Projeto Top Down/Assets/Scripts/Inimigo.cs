@@ -12,7 +12,8 @@ public class Inimigo : Personagem
     
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-
+    
+    public AudioSource audioSource;
 
     private bool andando = false;
 
@@ -38,6 +39,8 @@ public class Inimigo : Personagem
       }
       
       raioDeVisao = _visaoCollider2D.radius;
+      
+      audioSource = GetComponent<AudioSource>();
       
     }
 
@@ -85,6 +88,11 @@ public class Inimigo : Personagem
         Destroy(gameObject);
     }
 
+    public void playAudio()
+    {
+        audioSource.Play();
+    }
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && getVida() > 0)

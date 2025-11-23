@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 1202745940532767748}
   - component: {fileID: 7376297690802372256}
   - component: {fileID: 5463836693496656637}
+  - component: {fileID: 2857115546619020980}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Player
@@ -320,6 +321,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2857115546619020980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510078343098749407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32daec3c1c512cc4f9065f9cb00cb3b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arma1: {fileID: 6140978421677240127}
+  arma2: {fileID: 8144665158936122029}
 --- !u!1 &6140978421677240127
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7473482680919284846
 Transform:
   m_ObjectHideFlags: 0
@@ -473,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1202678722052346038
 Transform:
   m_ObjectHideFlags: 0
@@ -559,7 +574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saidaDoTiro: {fileID: 6344304188181040409}
   bala: {fileID: 42839755249559236, guid: 5a4dd06fca3175a429e663639528f637, type: 3}
-  intervaloDeDisparo: 0.2
+  intervaloDeDisparo: 0.5
   cursor: {fileID: 834094852144436402}
 --- !u!1 &8895201364167819306
 GameObject:
